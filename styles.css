@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hero Section */
+  header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f8f9fa;
+    padding: 50px 15px;
+  }
+  
+  #about h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Products Section */
+  #products .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #products .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Reviews Section */
+  blockquote {
+    background: #f8f9fa;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section */
+  form .form-control {
+    border-radius: 0;
+  }
+  
+  form button {
+    border-radius: 0;
+  }
+  
+  /* Lead Generation Section */
+  #subscribe {
+    background: linear-gradient(to right, #343a40, #212529);
+    padding: 50px 15px;
+  }
+  
+  #subscribe input {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #subscribe button {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background: #0056b3;
+    color: white;
+  }
+  
